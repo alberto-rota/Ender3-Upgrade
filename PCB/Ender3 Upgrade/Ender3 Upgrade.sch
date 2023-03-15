@@ -551,7 +551,7 @@ U 1 1 64024200
 P 5550 6000
 F 0 "J2" V 5704 5712 50  0000 R CNN
 F 1 "Conn_01x04_Male" V 5613 5712 50  0000 R CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 5550 6000 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 5550 6000 50  0001 C CNN
 F 3 "~" H 5550 6000 50  0001 C CNN
 	1    5550 6000
 	0    -1   -1   0   
@@ -562,7 +562,7 @@ U 1 1 64025749
 P 5350 1200
 F 0 "J1" H 5175 1125 50  0000 C CNN
 F 1 "Conn_01x04_Male" V 5300 1150 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 5350 1200 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 5350 1200 50  0001 C CNN
 F 3 "~" H 5350 1200 50  0001 C CNN
 	1    5350 1200
 	0    1    1    0   
@@ -647,17 +647,6 @@ Wire Wire Line
 Wire Wire Line
 	6975 1400 5450 1400
 Connection ~ 7300 2800
-$Comp
-L Connector:Conn_01x02_Female J3
-U 1 1 64084918
-P 1100 3500
-F 0 "J3" H 992 3175 50  0000 C CNN
-F 1 "Conn_01x02_Female" H 992 3266 50  0000 C CNN
-F 2 "" H 1100 3500 50  0001 C CNN
-F 3 "~" H 1100 3500 50  0001 C CNN
-	1    1100 3500
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	1300 3400 1550 3400
 Connection ~ 1550 3400
@@ -678,4 +667,94 @@ F 3 "" H 2750 3875 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 5450 1400
+$Comp
+L Connector:Conn_01x01_Male JS_Power1
+U 1 1 6402B6DD
+P 8175 1875
+F 0 "JS_Power1" H 8283 2056 50  0000 C CNN
+F 1 "Conn_01x01_Male" H 8283 1965 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 8175 1875 50  0001 C CNN
+F 3 "~" H 8175 1875 50  0001 C CNN
+	1    8175 1875
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male JS_Board1
+U 1 1 64031B0D
+P 8025 3525
+F 0 "JS_Board1" H 8133 3706 50  0000 C CNN
+F 1 "Conn_01x01_Male" H 8133 3615 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 8025 3525 50  0001 C CNN
+F 3 "~" H 8025 3525 50  0001 C CNN
+	1    8025 3525
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:IRLZ34N TS1
+U 1 1 6403AD45
+P 9525 2975
+F 0 "TS1" V 9775 2925 50  0000 L CNN
+F 1 "IRLZ34N" H 9729 2930 50  0001 L CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 9775 2900 50  0001 L CIN
+F 3 "http://www.infineon.com/dgdl/irlz34npbf.pdf?fileId=5546d462533600a40153567206892720" H 9525 2975 50  0001 L CNN
+	1    9525 2975
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R RS1
+U 1 1 6403B133
+P 9250 2775
+F 0 "RS1" V 9043 2775 50  0001 C CNN
+F 1 "R1" V 9135 2775 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 9180 2775 50  0001 C CNN
+F 3 "~" H 9250 2775 50  0001 C CNN
+	1    9250 2775
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9525 2775 9400 2775
+Wire Wire Line
+	9325 3075 9325 3525
+Wire Wire Line
+	9325 3525 8975 3525
+Wire Wire Line
+	9100 2775 8975 2775
+Wire Wire Line
+	8975 2775 8975 3525
+Connection ~ 8975 3525
+Wire Wire Line
+	8975 3525 8225 3525
+Wire Wire Line
+	9525 2775 9525 2525
+Wire Wire Line
+	9525 2525 9200 2525
+Wire Wire Line
+	9200 2525 9200 1375
+Connection ~ 9525 2775
+$Comp
+L Connector:Conn_01x01_Male JS_Control1
+U 1 1 640540EF
+P 9200 1175
+F 0 "JS_Control1" V 9262 1219 50  0000 L CNN
+F 1 "Conn_01x01_Male" V 9353 1219 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 9200 1175 50  0001 C CNN
+F 3 "~" H 9200 1175 50  0001 C CNN
+	1    9200 1175
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8375 1875 9725 1875
+Wire Wire Line
+	9725 1875 9725 3075
+$Comp
+L Connector:Conn_01x02_Female JPower
+U 1 1 640A3D7F
+P 1100 3500
+F 0 "JPower" H 992 3175 50  0000 C CNN
+F 1 "Conn_01x02_Female" H 992 3266 50  0000 C CNN
+F 2 "" H 1100 3500 50  0001 C CNN
+F 3 "~" H 1100 3500 50  0001 C CNN
+	1    1100 3500
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
