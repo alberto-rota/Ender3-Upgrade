@@ -5,3 +5,4 @@ Upgrading and Modding my Ender-3 3D printer
 
 ![pcb render](readme/pcb_render.png)
 ![pcb schematics](readme/pcb_schematics.png)
+
