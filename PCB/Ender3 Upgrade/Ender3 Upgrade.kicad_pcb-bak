@@ -85,9 +85,9 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory "Gerber/"))
   )
 
   (net 0 "")
@@ -1346,7 +1346,7 @@
     )
     (pad 2 thru_hole oval (at 2.5 0) (size 1.7 2) (drill 1) (layers *.Cu *.Mask)
       (net 3 12V))
-    (pad 1 thru_hole roundrect (at 0 0) (size 1.7 2) (drill 1) (layers *.Cu *.Mask) (roundrect_rratio 0.147059)
+    (pad 1 thru_hole roundrect (at 0 0) (size 1.7 2) (drill 1) (layers *.Cu *.Mask) (roundrect_rratio 0.1470588235294118)
       (net 10 "Net-(C8-Pad1)"))
     (model ${KISYS3DMOD}/Connector_JST.3dshapes/JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical.wrl
       (at (xyz 0 0 0))
@@ -1396,7 +1396,7 @@
     )
     (pad 2 thru_hole oval (at 2.5 0) (size 1.7 2) (drill 1) (layers *.Cu *.Mask)
       (net 1 5V))
-    (pad 1 thru_hole roundrect (at 0 0) (size 1.7 2) (drill 1) (layers *.Cu *.Mask) (roundrect_rratio 0.147059)
+    (pad 1 thru_hole roundrect (at 0 0) (size 1.7 2) (drill 1) (layers *.Cu *.Mask) (roundrect_rratio 0.1470588235294118)
       (net 9 "Net-(C7-Pad1)"))
     (model ${KISYS3DMOD}/Connector_JST.3dshapes/JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical.wrl
       (at (xyz 0 0 0))
@@ -1446,7 +1446,7 @@
     )
     (pad 2 thru_hole oval (at 2.5 0) (size 1.7 2) (drill 1) (layers *.Cu *.Mask)
       (net 3 12V))
-    (pad 1 thru_hole roundrect (at 0 0) (size 1.7 2) (drill 1) (layers *.Cu *.Mask) (roundrect_rratio 0.147059)
+    (pad 1 thru_hole roundrect (at 0 0) (size 1.7 2) (drill 1) (layers *.Cu *.Mask) (roundrect_rratio 0.1470588235294118)
       (net 8 "Net-(C6-Pad1)"))
     (model ${KISYS3DMOD}/Connector_JST.3dshapes/JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical.wrl
       (at (xyz 0 0 0))
@@ -1496,7 +1496,7 @@
     )
     (pad 2 thru_hole oval (at 2.5 0) (size 1.7 2) (drill 1) (layers *.Cu *.Mask)
       (net 1 5V))
-    (pad 1 thru_hole roundrect (at 0 0) (size 1.7 2) (drill 1) (layers *.Cu *.Mask) (roundrect_rratio 0.147059)
+    (pad 1 thru_hole roundrect (at 0 0) (size 1.7 2) (drill 1) (layers *.Cu *.Mask) (roundrect_rratio 0.1470588235294118)
       (net 7 "Net-(C5-Pad1)"))
     (model ${KISYS3DMOD}/Connector_JST.3dshapes/JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical.wrl
       (at (xyz 0 0 0))
@@ -1546,7 +1546,7 @@
     )
     (pad 2 thru_hole oval (at 2.5 0 180) (size 1.7 2) (drill 1) (layers *.Cu *.Mask)
       (net 3 12V))
-    (pad 1 thru_hole roundrect (at 0 0 180) (size 1.7 2) (drill 1) (layers *.Cu *.Mask) (roundrect_rratio 0.147059)
+    (pad 1 thru_hole roundrect (at 0 0 180) (size 1.7 2) (drill 1) (layers *.Cu *.Mask) (roundrect_rratio 0.1470588235294118)
       (net 6 "Net-(C4-Pad1)"))
     (model ${KISYS3DMOD}/Connector_JST.3dshapes/JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical.wrl
       (at (xyz 0 0 0))
@@ -1596,7 +1596,7 @@
     )
     (pad 2 thru_hole oval (at 2.5 0 180) (size 1.7 2) (drill 1) (layers *.Cu *.Mask)
       (net 1 5V))
-    (pad 1 thru_hole roundrect (at 0 0 180) (size 1.7 2) (drill 1) (layers *.Cu *.Mask) (roundrect_rratio 0.147059)
+    (pad 1 thru_hole roundrect (at 0 0 180) (size 1.7 2) (drill 1) (layers *.Cu *.Mask) (roundrect_rratio 0.1470588235294118)
       (net 5 "Net-(C3-Pad1)"))
     (model ${KISYS3DMOD}/Connector_JST.3dshapes/JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical.wrl
       (at (xyz 0 0 0))
@@ -1646,7 +1646,7 @@
     )
     (pad 2 thru_hole oval (at 2.5 0 180) (size 1.7 2) (drill 1) (layers *.Cu *.Mask)
       (net 3 12V))
-    (pad 1 thru_hole roundrect (at 0 0 180) (size 1.7 2) (drill 1) (layers *.Cu *.Mask) (roundrect_rratio 0.147059)
+    (pad 1 thru_hole roundrect (at 0 0 180) (size 1.7 2) (drill 1) (layers *.Cu *.Mask) (roundrect_rratio 0.1470588235294118)
       (net 4 "Net-(C2-Pad1)"))
     (model ${KISYS3DMOD}/Connector_JST.3dshapes/JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical.wrl
       (at (xyz 0 0 0))
@@ -1696,7 +1696,7 @@
     )
     (pad 2 thru_hole oval (at 2.5 0 180) (size 1.7 2) (drill 1) (layers *.Cu *.Mask)
       (net 1 5V))
-    (pad 1 thru_hole roundrect (at 0 0 180) (size 1.7 2) (drill 1) (layers *.Cu *.Mask) (roundrect_rratio 0.147059)
+    (pad 1 thru_hole roundrect (at 0 0 180) (size 1.7 2) (drill 1) (layers *.Cu *.Mask) (roundrect_rratio 0.1470588235294118)
       (net 2 "Net-(C1-Pad1)"))
     (model ${KISYS3DMOD}/Connector_JST.3dshapes/JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical.wrl
       (at (xyz 0 0 0))
